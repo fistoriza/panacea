@@ -5,9 +5,8 @@
 <table>
   <thead>
     <tr>
-      <th>Time</th>
-      <th>Doctor</th>
-      <th>Patient</th>
+      <th>Service</th>
+      <th>Slot</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -15,9 +14,8 @@
   <tbody>
     <% @appointments.each do |appointment| %>
       <tr>
-        <td><%= appointment.time %></td>
-        <td><%= appointment.doctor %></td>
-        <td><%= appointment.patient %></td>
+        <td><%= appointment.service %></td>
+        <td><%= appointment.slot %></td>
         <td><%= link_to 'Show', appointment %></td>
         <td><%= link_to 'Edit', edit_appointment_path(appointment) %></td>
         <td><%= link_to 'Destroy', appointment, method: :delete, data: { confirm: 'Are you sure?' } %></td>

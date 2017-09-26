@@ -1,11 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  time: 2017-09-19 15:57:17
-  doctor: one
-  patient: one
+  service: MyString
+  slot: 2017-09-26 09:38:37
 
 two:
-  time: 2017-09-19 15:57:17
-  doctor: two
-  patient: two
+  service: MyString
+  slot: 2017-09-26 09:38:37

@@ -2,14 +2,14 @@
 
 one:
   name: MyString
-  date_of_birth: 2017-09-19 15:46:32
-  address: MyText
-  phone: MyString
+  date_of_birth: 2017-09-26 09:36:33
+  mobile: MyString
   email: MyString
+  note: MyText
 
 two:
   name: MyString
-  date_of_birth: 2017-09-19 15:46:32
-  address: MyText
-  phone: MyString
+  date_of_birth: 2017-09-26 09:36:33
+  mobile: MyString
   email: MyString
+  note: MyText

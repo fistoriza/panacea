@@ -3,9 +3,9 @@ class CreatePatients < ActiveRecord::Migration[5.1]
     create_table :patients do |t|
       t.string :name
       t.datetime :date_of_birth
-      t.text :address
-      t.string :phone
+      t.string :mobile
       t.string :email
+      t.text :note
 
       t.timestamps
     end

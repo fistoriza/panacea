@@ -12,18 +12,13 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :time %>
-    <%= form.datetime_select :time, id: :appointment_time %>
+    <%= form.label :service %>
+    <%= form.text_field :service, id: :appointment_service %>
   </div>
 
   <div class="field">
-    <%= form.label :doctor_id %>
-    <%= form.text_field :doctor_id, id: :appointment_doctor_id %>
-  </div>
-
-  <div class="field">
-    <%= form.label :patient_id %>
-    <%= form.text_field :patient_id, id: :appointment_patient_id %>
+    <%= form.label :slot %>
+    <%= form.datetime_select :slot, id: :appointment_slot %>
   </div>
 
   <div class="actions">
