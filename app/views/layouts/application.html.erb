@@ -9,6 +9,26 @@
   </head>
 
   <body>
+  	<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Panacea</a>
+
+		  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+		    <ul class="navbar-nav pull-right">
+		      <li class="nav-item">
+		      	<%= link_to 'Login (for Doctors only)', '#', class: 'nav-link' %>
+		      </li>
+		    </ul>
+		    <ul class="navbar-nav">
+
+		    </ul>
+		  </div>
+
+    </nav>
+
+
     <%= yield %>
   </body>
 </html>
