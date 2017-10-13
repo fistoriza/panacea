@@ -12,13 +12,28 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :service %>
-    <%= form.text_field :service, id: :appointment_service %>
+    <%= form.label :patient_name %>
+    <%= form.text_field :patient_name, id: :appointment_patient_name %>
   </div>
 
   <div class="field">
-    <%= form.label :slot %>
-    <%= form.datetime_select :slot, id: :appointment_slot %>
+    <%= form.label :date_of_birth %>
+    <%= form.datetime_select :date_of_birth, id: :appointment_date_of_birth %>
+  </div>
+
+  <div class="field">
+    <%= form.label :mobile %>
+    <%= form.text_field :mobile, id: :appointment_mobile %>
+  </div>
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_field :email, id: :appointment_email %>
+  </div>
+
+  <div class="field">
+    <%= form.label :notes %>
+    <%= form.text_area :notes, id: :appointment_notes %>
   </div>
 
   <div class="actions">

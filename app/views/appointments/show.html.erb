@@ -1,13 +1,28 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Service:</strong>
-  <%= @appointment.service %>
+  <strong>Patient name:</strong>
+  <%= @appointment.patient_name %>
 </p>
 
 <p>
-  <strong>Slot:</strong>
-  <%= @appointment.slot %>
+  <strong>Date of birth:</strong>
+  <%= @appointment.date_of_birth %>
+</p>
+
+<p>
+  <strong>Mobile:</strong>
+  <%= @appointment.mobile %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @appointment.email %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @appointment.notes %>
 </p>
 
 <%= link_to 'Edit', edit_appointment_path(@appointment) %> |

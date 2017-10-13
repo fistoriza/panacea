@@ -2,8 +2,8 @@
 
 one:
   name: MyString
-  speciality: MyString
+  service: MyString
 
 two:
   name: MyString
-  speciality: MyString
+  service: MyString

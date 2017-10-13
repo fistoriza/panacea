@@ -1,9 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  service: MyString
-  slot: 2017-09-26 09:38:37
+  patient_name: MyString
+  date_of_birth: 2017-10-13 12:07:33
+  mobile: MyString
+  email: MyString
+  notes: MyText
 
 two:
-  service: MyString
-  slot: 2017-09-26 09:38:37
+  patient_name: MyString
+  date_of_birth: 2017-10-13 12:07:33
+  mobile: MyString
+  email: MyString
+  notes: MyText
